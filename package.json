@@ -1,0 +1,26 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.3.3",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samizad/Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samizad/Portfolio/issues"
+  },
+  "homepage": "https://github.com/samizad/Portfolio#readme",
+  "description": ""
+}
