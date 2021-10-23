@@ -15,11 +15,8 @@ module.exports = {
   variants: {
     extend: {
       backgroundColor: ["active"],
-      // ...
       borderColor: ["focus-visible", "first"],
-      // ...
       textColor: ["visited"],
-
       height: ["hover", "focus", "group-hover"],
       width: ["responsive", "hover", "focus", "group-hover"],
       transform: ["hover", "focus"],

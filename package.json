@@ -1,13 +1,13 @@
 {
-  "name": "package.json",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "Sami's portfolio",
+  "version": "1.0.1",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tailwindcss -i main.css -o output.css",
+    "watch": "tailwindcss -i main.css -o output.css --watch"
   },
-  "author": "",
+  "author": "Sami Zad <samiraghadirzad@gmail.com>",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^10.3.3",
     "postcss": "^8.3.6",
@@ -22,5 +22,5 @@
     "url": "https://github.com/samizad/Portfolio/issues"
   },
   "homepage": "https://github.com/samizad/Portfolio#readme",
-  "description": ""
+  "description": "My personal portfolio, where you can find the projects that I recently worked on and more information about myself."
 }
