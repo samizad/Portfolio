@@ -6,7 +6,7 @@
     "build": "tailwindcss -i main.css -o output.css",
     "watch": "tailwindcss -i main.css -o output.css --watch"
   },
-  "author": "",
+  "author": "Sami Zad <samizad@gmail.com>",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
