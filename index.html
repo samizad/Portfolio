@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="box-border">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="”main.css”" rel="”stylesheet”" />
     <link href="style.css" rel="stylesheet" />
@@ -22,12 +22,12 @@
   </head>
   <body>
     <div class="container my-0 mx-auto">
-    <section class="flex flex-row">
-      <div class="mx-12 mt-12 mb-12">
-        <p class="text-4xl font-Sans-Condensed text-gray-800 font-bold">
+    <section class="flex flex-col sm:flex-row">
+      <div class=" md:mx-12 mx-8 md:mt-12 mt-8 md:mb-12 mb-8">
+        <p class="text-4xl sm:text-2xl font-Sans-Condensed text-gray-800 font-bold">
           Hi, I'm Sami Zad
         </p>
-        <p class="pl-20 text-2xl text-gray-700 font-light">
+        <p class="md:pl-20 text-2xl text-gray-700 font-light">
           I'm a Front-End Developer
         </p>
         <p class="text-2xl text-yellow-700 font-light">
@@ -35,7 +35,7 @@
           above
         </p>
       </div>
-      <div class="mx-12 mt-32 mb-12">
+      <div class="mx-8 md:mx-12 md:mt-32 md:mb-12 mb-8">
         <button
           class="
             bg-gray-200
@@ -53,13 +53,12 @@
         </button>
       </div>
     </section>
-    <section class=" mx-12 mt-12 mb-12">
-      <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+    <section class="  md:mx-12 mx-12  md:mb-12 mb-8">
+      <div class="grid gap-8 grid-cols-1 md:grid-cols-2   lg:grid-cols-4">
         <!-- super power, this is my soft skills-->
         <div
           class="
-            w-72
-            h-60
+           
             transition
             duration-500
             ease-in-out
@@ -145,8 +144,7 @@
         <!--Main Expertise, this is my skills -->
         <div
           class="
-            w-72
-            h-60
+            
             transition
             duration-500
             ease-in-out
@@ -214,8 +212,7 @@
         <!--Tools, this is tools that I use most in my projects  -->
         <div
           class="
-            w-72
-            h-60
+          
             transition
             duration-500
             ease-in-out
@@ -294,8 +291,7 @@
         <!--Education, this is my education journey -->
         <div
           class="
-            w-72
-            h-60
+          
             transition
             duration-500
             ease-in-out
@@ -387,9 +383,9 @@
       >
         work
       </div>
-      <div class="flex flex-row  gap-x-5">
+      <div class="flex sm:flex-row flex-col  gap-5 md:gap-x-5">
         <!---first project/ KIA responsive website-->
-        <div class="group bg-yellow-200 relative w-1/4  overflow-hidden">
+        <div class="group bg-yellow-200 relative sm:w-1/4  overflow-hidden">
           <img
             src="./Images/KIA.jpg"
             alt="KIA"
@@ -422,7 +418,7 @@
         </div>
         <!---second project//kalleh responsive-->
 
-        <div class="group bg-blue-200 relative w-1/4  overflow-hidden">
+        <div class="group bg-blue-200 relative sm:w-1/4  overflow-hidden">
           <img
             src="./Images/kalleh.jpg"
             alt="Avatar"
@@ -454,7 +450,7 @@
           </div>
         </div>
         <!---third project// solico website-->
-        <div class="group bg-red-200 relative w-1/4  overflow-hidden">
+        <div class="group bg-red-200 relative sm:w-1/4  overflow-hidden">
           <img
             src="./Images/solico.jpg"
             alt="Avatar"
@@ -488,7 +484,7 @@
           </div>
         </div>
         <!---forth project// Bonny Chow document manager-->
-        <div class="group bg-green-200 relative w-1/4  overflow-hidden">
+        <div class="group bg-green-200 relative sm:w-1/4  overflow-hidden">
           <img
             src="./Images/BonnyChow.jpg"
             alt="Avatar"
@@ -535,7 +531,7 @@
       >
         lets talk
       </div>
-      <ul class="flex flex-row justify-center mt-4 gap-24">
+      <ul class="flex flex-row  justify-center mt-4 ms:gap-24 gap-8">
         <li>
           <a href="samiraghadirzad@gmail.com" class="text-gray-800">
             <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
@@ -544,7 +540,7 @@
         <li>
           <a
             href="https://www.linkedin.com/in/samira-ghadirzad-a5b9688a/"
-            class="flex items-center justify-center text-gray-800"
+            class=" text-gray-800"
           >
             <i class="fab fa-linkedin-in fa-2x"></i>
           </a>
