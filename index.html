@@ -21,7 +21,8 @@
     <title>Portfolio of Sami</title>
   </head>
   <body>
-    <section class="container flex flex-row">
+    <div class="container my-0 mx-auto">
+    <section class="flex flex-row">
       <div class="mx-12 mt-12 mb-12">
         <p class="text-4xl font-Sans-Condensed text-gray-800 font-bold">
           Hi, I'm Sami Zad
@@ -52,7 +53,7 @@
         </button>
       </div>
     </section>
-    <section class="container mx-12 mt-12 mb-12">
+    <section class=" mx-12 mt-12 mb-12">
       <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
         <!-- super power, this is my soft skills-->
         <div
@@ -71,21 +72,26 @@
             hover:text-white
           "
         >
-          <div class="mt-3 flex flex-row items-center text-center">
-            <i class="mx-3 fab fa-superpowers fa-lg"></i>
+        <div class="mt-3 flex flex-row items-center text-center gap-x-1">
+          <i class="ml-3 fab fa-superpowers fa-md"></i>
+          <span
+            class="
+              text-3xl
+              font-light
+              hover:text-white hover:bg-gray-700
+            "
+            >Super Powers</span
+          >
+        </div>
+      
+     
 
-            <span
-              class="
-                mx-3
-                text-3xl
-                font-light
-                hover:text-white hover:bg-gray-700
-              "
-              >Super Power</span
-            >
-          </div>
+        
+
           <hr class="border-1 mt-2 border-yellow-700" />
-          <div class="mx-12 mt-3.5 font-light">
+          
+          <div class="mx-8 mt-3.5 font-light">
+
             <p
               class="
                 mb-3.5
@@ -154,10 +160,10 @@
           "
         >
           <div class="mt-3 flex flex-row items-center text-center gap-x-1">
-            <i class="mx-3 fa fa-shopping-bag fa-lg"></i>
+            <i class="ml-3 fa fa-shopping-bag fa-md"></i>
             <span
               class="
-                mx-3
+                
                 text-3xl
                 font-light
                 hover:text-white hover:bg-gray-700
@@ -166,7 +172,7 @@
             >
           </div>
           <hr class="border-1 mt-2 border-yellow-700" />
-          <div class="mx-12 mt-3.5 font-light">
+          <div class="mx-8 mt-3.5 font-light">
             <p
               class="
                 mb-3.5
@@ -223,10 +229,10 @@
           "
         >
           <div class="mt-3 flex flex-row items-center text-center gap-x-1">
-            <i class="mx-3 fas fa-tools fa-lg"></i>
+            <i class="ml-3 fas fa-tools fa-md"></i>
             <span
               class="
-                mx-3
+               
                 text-3xl
                 font-light
                 hover:text-white hover:bg-gray-700
@@ -235,7 +241,7 @@
             >
           </div>
           <hr class="border-1 mt-2 border-yellow-700" />
-          <div class="mx-12 mt-3.5 font-light">
+          <div class="mx-8 mt-3.5 font-light">
             <p
               class="
                 mb-3.5
@@ -303,10 +309,9 @@
           "
         >
           <div class="mt-3 flex flex-row items-center text-center gap-x-1">
-            <i class="mx-3 fas fa-tools fa-lg"></i>
+            <i class="ml-3 fas fa-university fa-md"></i>
             <span
               class="
-                mx-3
                 text-3xl
                 font-light
                 hover:text-white hover:bg-gray-700
@@ -315,7 +320,7 @@
             >
           </div>
           <hr class="border-1 mt-2 border-yellow-700" />
-          <div class="mx-12 mt-3.5 font-light">
+          <div class="mx-8 mt-3.5 font-light">
             <p
               class="
                 mb-3.5
@@ -368,7 +373,7 @@
         </div>
       </div>
     </section>
-    <section class="container mx-12 mt-12 mb-12">
+    <section class="mx-12 mt-12 mb-12">
       <div
         class="
           text-gray-700
@@ -382,9 +387,9 @@
       >
         work
       </div>
-      <div class="flex flex-row">
+      <div class="flex flex-row  gap-x-5">
         <!---first project/ KIA responsive website-->
-        <div class="group bg-yellow-200 relative w-1/4 m-5 overflow-hidden">
+        <div class="group bg-yellow-200 relative w-1/4  overflow-hidden">
           <img
             src="./Images/KIA.jpg"
             alt="KIA"
@@ -417,7 +422,7 @@
         </div>
         <!---second project//kalleh responsive-->
 
-        <div class="group bg-blue-200 relative w-1/4 m-5 overflow-hidden">
+        <div class="group bg-blue-200 relative w-1/4  overflow-hidden">
           <img
             src="./Images/kalleh.jpg"
             alt="Avatar"
@@ -449,7 +454,7 @@
           </div>
         </div>
         <!---third project// solico website-->
-        <div class="group bg-red-200 relative w-1/4 m-5 overflow-hidden">
+        <div class="group bg-red-200 relative w-1/4  overflow-hidden">
           <img
             src="./Images/solico.jpg"
             alt="Avatar"
@@ -483,7 +488,7 @@
           </div>
         </div>
         <!---forth project// Bonny Chow document manager-->
-        <div class="group bg-green-200 relative w-1/4 m-5 overflow-hidden">
+        <div class="group bg-green-200 relative w-1/4  overflow-hidden">
           <img
             src="./Images/BonnyChow.jpg"
             alt="Avatar"
@@ -516,7 +521,7 @@
         </div>
       </div>
     </section>
-    <section class="container mx-12 mb-12 mt-12">
+    <section class="mx-12 mb-12 mt-12">
       <div
         class="
           text-gray-700
@@ -556,5 +561,6 @@
         </li>
       </ul>
     </section>
+  </div>
   </body>
 </html>
